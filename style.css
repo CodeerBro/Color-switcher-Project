@@ -1,0 +1,61 @@
+*{
+    
+    margin: 20px;
+ 
+    
+}
+
+html{
+    margin:0px;
+}
+span{
+    display:block;
+
+ }
+.canvas{
+    margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+.button{
+    height: 100px;
+    width: 100px;
+    border: solid black 2px;
+    display:inline-block;
+    border-radius: 7px;
+    box-shadow: -8px -4px 5px -6px rgba(46,40,46,0.59);
+
+
+
+}
+#grey{
+    background: grey;
+     
+
+
+}
+#white{
+    background: white;
+
+}
+#blue{
+    background: blue;
+    
+}
+#yellow{
+    background: yellow
+}
+#red{
+    background: red;
+}
+#pink{
+    background: pink
+}
+
+@keyframes fadeIn {
+ 0%{
+    opacity: 0%;
+ }
+ 100%{
+    opacity:100%
+ }}
